@@ -1,0 +1,19 @@
+# Rebuildable dependencies, upstream checkouts, and generated experiment outputs.
+/perturbation/
+/reproduction/source/
+/reproduction/work/
+/reproduction/environment/library/
+/reproduction/environment/downloads/
+/reproduction/environment/tmp/
+/reproduction/environment/logs/
+/reproduction/environment/cran_available_packages.csv
+/reproduction/environment/*.lock
+/reproduction/user_runs/
+/reproduction/user_artifacts/
+/reproduction/results/*
+!/reproduction/results/README.md
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/

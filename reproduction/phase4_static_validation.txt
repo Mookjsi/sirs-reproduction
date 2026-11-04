@@ -1,0 +1,27 @@
+PHASE4_STATIC_ONLY: no pipeline, scientific script, simulation, plot or PPC executed.
+TARGET_SOURCE_MATCH figure1 figure/figure1.R
+TARGET_SOURCE_MATCH figure2 figure/figure_comb_sirs_npi.R
+TARGET_SOURCE_MATCH figure3 figure/figure_comb_sirs_change.R
+TARGET_SOURCE_MATCH figure4 figure/figure_childcare.R
+TARGET_SOURCE_MATCH s1 figure/figure1.R
+TARGET_SOURCE_MATCH s2 figure/figure_map.R
+TARGET_SOURCE_MATCH s3 figure/figure_joint_climate.R
+TARGET_SOURCE_MATCH s4 figure/figure_comb_sirs_npi.R
+TARGET_SOURCE_MATCH s5 figure/figure_comb_sirs_npi.R
+TARGET_SOURCE_MATCH s6 figure/figure_ryukyu_sirs_change.R
+TARGET_SOURCE_MATCH s7 figure/figure_hokkaido_sirs_change.R
+TARGET_SOURCE_MATCH s8 figure/figure_comb_sirs_npi2.R
+TARGET_SOURCE_MATCH s8-ratios analysis/analysis_beta.R
+ORIGINAL_AND_PINNED_SOURCE_UNCHANGED: 54 files each
+SIMULATION_SOURCE_RULES_MATCH: original medians, grids, indexing and peak metric
+CHILDCARE_SCHEMA_PRESENT: year plus four categories, required 2013..2019 rows
+R_PARSE_OK counterfactuals.R 
+R_PARSE_OK pipeline_figures.R 
+R_PARSE_OK source_adapter.R 
+R_PARSE_OK pipeline.R 
+R_PARSE_OK pipeline_common.R 
+R_PARSE_OK setup_figure_extras.R 
+R_PARSE_OK original_counterfactuals.R
+SHELL_PARSE_OK pipeline.sh
+DOCUMENT_LINKS_OK
+Runtime/numerical/graphical validation is pending manual user execution.

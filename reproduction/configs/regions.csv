@@ -1,0 +1,9 @@
+region,variant,model,Nnonpi,seed,adapt_delta,source_break,source_script
+Hokkaido,seasonal,sirs_npi,208,102,0.95,,stanfit_sirs/stanfit_sirs_hokkaido_npi.R
+Honshu,seasonal,sirs_npi,364,102,0.9,,stanfit_sirs/stanfit_sirs_honshu_npi.R
+Shikoku,seasonal,sirs_npi_tweak,364,104,0.99,,stanfit_sirs/stanfit_sirs_shikoku_npi.R
+Kyushu,seasonal,sirs_npi,364,101,0.95,,stanfit_sirs/stanfit_sirs_kyushu_npi.R
+Ryukyu,seasonal,sirs_npi,312,102,0.99,,stanfit_sirs/stanfit_sirs_ryukyu_npi.R
+Honshu,prepost,sirs_npi2,364,102,0.9,2016.5,stanfit_sirs2/stanfit_sirs_honshu_npi2.R
+Shikoku,prepost,sirs_npi_tweak2,364,102,0.9,2016.5,stanfit_sirs2/stanfit_sirs_shikoku_npi2.R
+Kyushu,prepost,sirs_npi2,364,102,0.99,2017.5,stanfit_sirs2/stanfit_sirs_kyushu_npi2.R

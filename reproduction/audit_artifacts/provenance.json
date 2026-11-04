@@ -1,0 +1,13 @@
+{
+  "audit_date_local": "2026-11-04",
+  "timezone": "Asia/Seoul",
+  "discovered_workspace": "/home/nickjmk/projects",
+  "source": "/home/nickjmk/projects/perturbation",
+  "commit": "475c7dcdadc12987033d332b101f025625074301",
+  "remote": "https://github.com/parksw3/perturbation.git",
+  "tracked_files": 54,
+  "changed_tracked_files": [],
+  "archive_equivalence_verified": false,
+  "preprocessing_executed": false,
+  "sampling_executed": false
+}

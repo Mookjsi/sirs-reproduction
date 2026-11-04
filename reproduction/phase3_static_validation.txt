@@ -1,0 +1,24 @@
+Phase 3 static validation only; no pipeline commands or experiments invoked.
+CONFIG_MATCH seasonal/Hokkaido
+CONFIG_MATCH seasonal/Honshu
+CONFIG_MATCH seasonal/Shikoku
+CONFIG_MATCH seasonal/Kyushu
+CONFIG_MATCH seasonal/Ryukyu
+CONFIG_MATCH prepost/Honshu
+CONFIG_MATCH prepost/Shikoku
+CONFIG_MATCH prepost/Kyushu
+ORIGINAL_SOURCE_UNCHANGED: 54 pinned tracked files
+SHELL_PARSE_OK pipeline.sh
+SHELL_PARSE_OK run_phase2.sh
+SHELL_PARSE_OK run_r.sh
+R_PARSE_OK defaults.R 
+R_PARSE_OK posterior.R 
+R_PARSE_OK compile_models.R 
+R_PARSE_OK pipeline.R 
+R_PARSE_OK pipeline_actions.R 
+R_PARSE_OK pipeline_common.R 
+R_PARSE_OK preprocess.R 
+R_PARSE_OK setup_environment.R 
+R_PARSE_OK smoke_honshu.R
+DOCUMENT_LINKS_OK
+Runtime validation deliberately not performed. User execution required.

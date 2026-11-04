@@ -1,0 +1,6 @@
+# Serial builds and modest optimization to reduce compilation resource usage.
+CXXFLAGS = -O1 -g0
+CXX11FLAGS = -O1 -g0
+CXX14FLAGS = -O1 -g0
+CXX17FLAGS = -O1 -g0
+CXX20FLAGS = -O1 -g0

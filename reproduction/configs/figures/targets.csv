@@ -1,0 +1,14 @@
+target,script,variant,regions,simulations,packages,outputs
+figure1,figure/figure1.R,,,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,figure1.pdf;figure1.png;figure1_cog.pdf
+figure2,figure/figure_comb_sirs_npi.R,seasonal,Hokkaido;Honshu;Shikoku;Kyushu;Ryukyu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,figure_comb_sirs_npi.pdf;figure_comb_sirs_npi_temp.pdf;figure_comb_sirs_npi_temp_hum.pdf
+figure3,figure/figure_comb_sirs_change.R,seasonal,Honshu;Shikoku;Kyushu,Honshu;Shikoku;Kyushu;interpolate,tidyr;dplyr;ggplot2;egg;gridExtra;rstan;mgcv,figure_comb_sirs_change.pdf;figure_comb_sirs_change.png
+figure4,figure/figure_childcare.R,seasonal,Hokkaido;Honshu;Shikoku;Kyushu;Ryukyu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan;readxl,figure_childcare.pdf
+s1,figure/figure1.R,,,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,figure1_cog.pdf
+s2,figure/figure_map.R,,,,tidyr;dplyr;ggplot2;maps;mapdata;ggfortify,figure_map.pdf
+s3,figure/figure_joint_climate.R,seasonal,Hokkaido;Honshu;Shikoku;Kyushu;Ryukyu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan;mgcv,figure_joint_climate.pdf
+s4,figure/figure_comb_sirs_npi.R,seasonal,Hokkaido;Honshu;Shikoku;Kyushu;Ryukyu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,figure_comb_sirs_npi_temp.pdf
+s5,figure/figure_comb_sirs_npi.R,seasonal,Hokkaido;Honshu;Shikoku;Kyushu;Ryukyu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,figure_comb_sirs_npi_temp_hum.pdf
+s6,figure/figure_ryukyu_sirs_change.R,seasonal,Ryukyu,Ryukyu,tidyr;dplyr;ggplot2;egg;gridExtra;rstan;mgcv,figure_ryukyu_sirs_change.pdf
+s7,figure/figure_hokkaido_sirs_change.R,seasonal,Hokkaido,Hokkaido,tidyr;dplyr;ggplot2;egg;gridExtra;rstan;mgcv,figure_hokkaido_sirs_change.pdf
+s8,figure/figure_comb_sirs_npi2.R,prepost,Honshu;Shikoku;Kyushu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,figure_comb_sirs_npi2.pdf
+s8-ratios,analysis/analysis_beta.R,prepost,Honshu;Shikoku;Kyushu,,tidyr;dplyr;ggplot2;egg;gridExtra;rstan,
